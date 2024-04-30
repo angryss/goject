@@ -22,4 +22,4 @@ go get github.com/angryss/goject
 - [Instance Services](doc/003_instance_services.md)
 - [Typed Services](doc/004_typed_services.md)
 - [Service Lifecycle](doc/005_service_lifecycle.md)
-- [Named Mappings](doc/006_type_mappings)
+- [Type Mappings](doc/006_type_mappings.md)
