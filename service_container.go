@@ -25,6 +25,10 @@ func NewServiceContainer(services ...*ServiceDefinition) *ServiceContainer {
 	return container
 }
 
+func (ctr *ServiceContainer) RegisterService(service *ServiceDefinition) {
+	ctr.services[service.key] = service
+}
+
 func (ctr *ServiceContainer) getService(key string) interface{} {
 	service, exists := ctr.services[key]
 	if !exists {
