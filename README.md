@@ -17,9 +17,9 @@ go get github.com/angryss/goject
 ```
 
 # Documentation
-- [The ServiceContainer](doc/001_service_container.md)
-- [Constructor Services](doc/002_constructor_services.md)
-- [Instance Services](doc/003_instance_services.md)
-- [Typed Services](doc/004_typed_services.md)
-- [Service Lifecycle](doc/005_service_lifecycle.md)
-- [Type Mappings](doc/006_type_mappings.md)
+- [The ServiceContainer](doc/001_serviceContainer.md)
+- [Constructor Services](doc/002_constructorServices.md)
+- [Instance Services](doc/003_instanceServices.md)
+- [Typed Services](doc/004_typedServices.md)
+- [Service Lifecycle](doc/005_serviceLifecycle.md)
+- [Type Mappings](doc/006_typeMappings.md)
